@@ -1,0 +1,55 @@
+/*==================
+ ABOUT SECTION
+====================*/
+
+#mu-about-us{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 5rem 0;	
+	margin-top: 0.5rem;
+
+	
+
+	.mu-about-us-area{
+		display: inline;
+		float: left;
+		width: 100%;
+		text-align: justify;
+
+		.mu-about-us-left{
+			display: inline;
+			float: left;			
+			width: 48%;
+
+			h2{
+				font-size: 40px;
+				margin-bottom: 20px;
+				text-align: left;
+			}
+			p{
+				font-family: Roboto, sans-serif;
+				font-size: 1em;
+			}
+
+			
+		}
+
+		.mu-about-us-right{
+			float: right;			
+			width: 48%;
+			margin-left: 0.5rem;
+			background-color: #ccc;		
+			
+			> img {
+				width: 100%;
+        float: right;		
+				border-radius: 2rem;
+			}
+			
+			
+		}
+
+		
+	}
+}

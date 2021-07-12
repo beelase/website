@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "title": "Beela",
+    "description": "Beela is a support network that empowers immigrant women & non-binary people in Sweden to join the tech world.",
+    "favicon": "https://raw.githubusercontent.com/denise-pluss/assets/main/favicon.ico",
+    "keywords": "womanintech, techworld, empoweredwoman, immigrant, immigrantwoman, career, careerintech, coaching, mentoring, network, coach, mentor, diversity, inspire",
+    "canonical": "{meta_canonical}"
+  },
+  "structure": [
+    {
+      "name": "Navbar",
+      "props": {
+        "navigation": [
+          {
+            "id": "1",
+            "ctaTitle": "Home",
+            "ctaHref": "/"
+          },
+          {
+            "id": "2",
+            "ctaTitle": "About us",
+            "ctaHref": "/aboutus"
+          },
+          {
+            "id": "3",
+            "ctaTitle": "Our programms",
+            "ctaHref": "",
+            "subMenu": {
+              "items": [
+                {
+                  "id": "1",
+                  "ctaSubTitle": "Pollination Mentorship Program",
+                  "ctaHref": "/pollination"
+                },
+                {
+                  "id": "2",
+                  "ctaSubTitle": "Beela's Talk",
+                  "ctaHref": "/podcast"
+                },
+                {
+                  "id": "3",
+                  "ctaSubTitle": "Beela's Newsletter",
+                  "ctaHref": "/newsletter"
+                },
+                {
+                  "id": "4",
+                  "ctaSubTitle": "divider",
+                  "ctaHref": ""
+                },
+                {
+                  "id": "5",
+                  "ctaSubTitle": "Beela for Business",
+                  "ctaHref": "/business"
+                }
+              ]
+            }
+          },
+          {
+            "id": "4",
+            "ctaTitle": "The Beehive",
+            "ctaHref": "",
+            "subMenu": {
+              "items": [
+                {
+                  "id": "1",
+                  "ctaSubTitle": "Bee a volunteer",
+                  "ctaHref": "/volunteer"
+                },
+                {
+                  "id": "2",
+                  "ctaSubTitle": "Donate",
+                  "ctaHref": "/"
+                },
+                {
+                  "id": "4",
+                  "ctaSubTitle": "divider",
+                  "ctaHref": ""
+                },
+                {
+                  "id": "5",
+                  "ctaSubTitle": "Contact",
+                  "ctaHref": "/contact"
+                }
+              ]
+            }
+          }
+        ],
+        "footer": "© All Rights Reserved to Beela, 2021"
+      }
+    },
+    {
+      "name": "Wrapper",
+      "props": {},
+      "structure": [
+        {
+          "name": "Home",
+          "props": {
+            "slider": [
+              {
+                "id": "1",
+                "image": "",
+                "title": "Welcome To Beela",
+                "mainText": "Guiding Women Into Tech",
+                "ctaText": "We empower immigrant women and non-binary people to start working with IT in Sweden.",
+                "ctaButton": "",
+                "ctaHref": ""
+              },
+              {
+                "id": "2",
+                "image": "",
+                "title": "Integration into the Swedish Labour",
+                "mainText": "Career tips",
+                "ctaText": "Courses, bootcamps and events for beginers on your email. Sign up for free now.",
+                "ctaButton": "Sign up",
+                "ctaHref": " https://beela.us1.list-manage.com/subscribe/post?u=ec3f144b4e769635dffef5601&amp;id=92a05c0895"
+              },
+              {
+                "id": "3",
+                "image": "",
+                "title": "Mentoring",
+                "mainText": "Empowered Women Empower Women",
+                "ctaText": "We help people to define their path, get unblocked, and meet their learning goals.",
+                "ctaButton": "Read more",
+                "ctaHref": ""
+              }
+            ],
+            "title": "Welcome to Beela!",
+            "programmes": [
+              {
+                "id": "1",
+                "title": "Beela's Talk",
+                "ctaText": "A seasonal podcast with amazing guests who share their inspiring stories of diversity, equity and inclusion in the tech industry.",
+                "image": "",
+                "ctaButton": "Listen",
+                "ctaHref": ""
+              },
+              {
+                "id": "2",
+                "title": "Metornship Program",
+                "ctaText": "We match immigrant women in a career transition with established women in the tech industry to provide mentorship, career coaching, and support.",
+                "image": "",
+                "ctaButton": "Read more",
+                "ctaHref": ""
+              },
+              {
+                "id": "3",
+                "title": "Newsletter",
+                "ctaText": "Bi-weekly newsletter with tips for a career transition into tech. Monthly calendar advertising courses, bootcamps, and events for beginners.",
+                "image": "",
+                "ctaButton": "Sign up",
+                "ctaHref": ""
+              },
+               {
+                "id": "4",
+                "title": "Events",
+                "ctaText": "Workshops and talks where we invite guest speakers to share their talents & experience with our community. Check our events on our Linkedin posts.",
+                "image": "",
+                "ctaButton": "Search",
+                "ctaHref": ""
+              }
+            ]
+          }
+        },
+        {
+          "name": "About",
+          "props": {
+            "ctaTitle": "Welcome to Beela",
+            "ctaSubtitle": "Empowered woman empower woman",
+            "ctaText": "At Beela we are committed to decreasing the evident gap in the unemployment rate between foreign-born women, particularly those from non-European countries, and women and men born in Sweden. \n <br> Making a career transition is hard. We help immigrant womxn and non-binary people define their path, get unblocked, and meet their learning goals. Passion brought us here and we are empowering the next generation of talented immigrant womxn and non-binary people to realize their potential, creating a better future for all.",
+            "footer": [
+              {
+                "ctaText": "FOREIGN-BORN YOUNG WOMEN, PARTICULARLY THOSE FROM NON-EUROPEAN COUNTRIES, STRUGGLE MORE IN THE SWEDISH JOB MARKET THAN THEIR PEERS",
+                "image": ""
+              }
+            ],
+            "image": "",
+            "ctaFounders": "Who are we?",
+            "ctaFoundersText":"Meet The Queens, the amazing women who created this initiative.",
+            "founders": [
+              {
+                "id": "1",
+                "image": "",
+                "title": "Founder & CEO",
+                "name": "Juliana Araujo",
+                "email": "juliana.araujo@beela.se",
+                "ctaHref": "",
+                "ctaText": "Latina immigrant with 8+ years of experience working in tech,leading product teams to develop data-driven products. She has a Bachelor's in Information Systems and is currently writing her master thesis in IT Project Management from Stockholm University."
+              },
+              {
+                "id": "2",
+                "image": "",
+                "title": "Co-founder & COO",
+                "name": "Denise Muniz",
+                "email": "denise.muniz@beela.se",
+                "ctaHref": "",
+                "ctaText": "Latina immigrant and fullstack developer. Denise has over 10 years of experience working as a business analyst but decided to change her career path to software development after she moved to Sweden. Has a Bachelor's in Information Systems and a Master's in Business & Project Management."
+              },
+              {
+                "id": "3",
+                "image": "",
+                "title": "Senior Organizational Developer",
+                "name": "Maryam Arai",
+                "email": "maryam.arai@beela.se",
+                "ctaHref": "",
+                "ctaText": "Social entrepreneur with a passionfor diversity, inclusion, and belonging. She has 8 years ofexperience in HR-related professions,including work with Arbetsförmedlingen with a focus on education, recruitment, and innovation."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mentorship",
+          "props": {
+            "image": "",
+            "title": "Pollination Mentorship programm.",
+            "subtitle": "A personal and professional development journey ",
+            "description": "Our mentorship program aims to help immigrant women and non-binary people find the right role in the IT/tech market, create a plan for their studies, and find a new job in their target career. <br />As a mentee, you will be paired with a mentor who is established in both the tech world and the Swedish job market. <br /> The program  run for 10 weeks, starting with a Welcome Meeting when we introduce the pairs and give some guidance about how the program will develop. <br /> In the first meeting between mentor and mentee, you will discuss the mentee’s goal, make a plan for how to achieve it, and schedule your future meetings.",
+            "footer": "Stay tunner to apply for the comming group. "
+          }
+        },
+        {
+          "name": "Podcast",
+          "props": {
+            "title": "Beela's Talk",
+            "subtitle": "Find out what you like doing best, and get someone to pay you for doing it. - Katharine Whitehorn",
+            "ctaText": "Beela's Talk is a podcast to have chat with our community about Career development. <br/> Inspirational stories of who made their path in tech world, sharing their experiencies, knowlodge, and thought-provoking career development fun and informal chat with our Queens, Juliana and Denise.👑🐝",
+            "ctaHref": "",
+            "image": ""
+          }
+        },
+        {
+          "name": "Newsletter",
+          "props": {
+            "title": "Beela's Newsletter",
+            "subtitle": "Bring to you information to help you to taking ownership for developing your career.",
+            "ctaText": "A bi-weekly newsletter with tips and advice for those who want to make a career transition into tech. A monthly calendar where we advertise courses, boot camps, and events for beginners.",
+            "ctaHref": "",
+            "image": "",
+            "ctaButton": "Subscribe here"
+          }
+        },
+        {
+          "name": "Business",
+          "props": {
+            "title": "Beela for Business",
+            "subtitle": "Inclusivity means not ‘just we’re allowed to be there,’ but we are valued. I’ve always said: smart teams will do amazing things, but truly diverse teams will do impossible things. ~ Claudia Brind-Woody",
+            "ctaText": "Building and maintaining a diverse workforce leads to better business outcomes—increased cash flow, innovation, readiness for change, and more. <br/> Are you working on building a more diverse team? We can help you find the best talents and show you how to thrive with a diverse team.",
+            "ctaHref": "",
+            "image": "",
+            "boxes": [
+              {
+                "id": "1",
+                "title": "Resources",
+                "ctaText": "Recommendation of talents from our community who fit your job requirements.",
+                "image": ""
+              },
+              {
+                "id": "2",
+                "title": "Inform",
+                "ctaText": "Workshops on diversity, equality and inclusion, carefully designed to your company needs.",
+                "image": ""
+              },
+              {
+                "id": "3",
+                "title": "Networking",
+                "ctaText": "we connect you with our community to achieve our shared mission.",
+                "image": ""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Podcast",
+          "props": {
+            "title": "Beela's Talk",
+            "subtitle": "Find out what you like doing best, and get someone to pay you for doing it. - Katharine Whitehorn",
+            "ctaText": "Beela's Talk is a podcast to have chat with our community about Career development. <br/> Inspirational stories of who made their path in tech world, sharing their experiencies, knowlodge, and thought-provoking career development fun and informal chat with our Queens, Juliana and Denise.👑🐝",
+            "ctaHref": "",
+            "image": ""
+          }
+        },
+        {
+          "name": "Stories",
+          "props": {
+            "title": "Inspirational Stories",
+            "subtitle": "She believed she could so she did it.",
+            "ctaText": "Be inspired for these amazing people who made their path into tech.",
+            "image": [
+              {
+                "id": "1",
+                "ctaTitle": "Jinyan Liu",
+                "ctaText": "Jinyan  is a software developer working for Bontouch in Sweden. She is from China and has a Bachelor’s degree in Art and Design and a Master’s in Interactive Media Design. After school, she worked as a group exercise instructor at Actic, a Swedish gym, teaching Les Mills Body Combat and Body Pump but decided to change her career path and became an Android developer. <br/>She loves cinema and she won Best Actress at the 2010 D.C. Chinese Film Festival for her role in the short film Be Touched.",
+                "image": "",
+                "socialMedia": [
+                  {
+                    "id": "1",
+                    "ctaMedia": "LinkedIn",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "2",
+                    "ctaMedia": "Github",
+                    "ctaHref": ""
+                  }
+                ]
+              },
+              {
+                "id": "2",
+                "ctaTitle": "Alexandra Cedric - Ivy",
+                "ctaText": "Ivy is a well-being, career/purpose and mindfulness coach trained in NVC (nonviolent communication), NLP (neuro linguistic programming), and psychology; has an extensive experience and practice of meditation, yoga, mindfulness and empathy work; as well as long life interest in introspection, neuroscience, spirituality and self-development. She studied software development at KTH and worked as a software development consultant in Stockholm for two years before co-founding Moonwise.",
+                "image": "",
+                "socialMedia": [
+                  {
+                    "id": "1",
+                    "ctaMedia": "LinkedIn",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "2",
+                    "ctaMedia": "Github",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "3",
+                    "ctaMedia": "Website",
+                    "ctaHref": ""
+                  }
+                ]
+              },
+              {
+                "id": "3",
+                "ctaTitle": "Natalia Vilela",
+                "ctaText": "Natalia is a UX Designer, Brazilian and resilient by default. She started her career in tech from scratch when she decided to move to Stockholm and she learned english while living in Sweden. Despite all the fears and uncertainties, she started in a new career and today studies at Hyper Island and works as a consultant. In her free time, she loves to visit new places by cycling and trying different foods.",
+                "image": "",
+                "socialMedia": [
+                  {
+                    "id": "1",
+                    "ctaMedia": "LinkedIn",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "2",
+                    "ctaMedia": "Github",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "3",
+                    "ctaMedia": "Website",
+                    "ctaHref": ""
+                  }
+                ]
+              },
+              {
+                "id": "4",
+                "ctaTitle": "Vanessa Sue Smith",
+                "ctaText": "Vanessa is original from Panamá and always liked creating visuals and playing with design and color. She has a bachelor's in Graphic Design and before moving to Sweden, she lived in Belgium for 10 years where she started a career as a Chef and also a food blog where she developed her own recipes and promoted conscious and vegan eating. <br/>                 She worked for 11 years as a Chef and Kitchen Manager before she felt a need to reconnect with her creative side, and decided to go for a career change and pursue Web Development. She completed the Technigo Bootcamp in February 2021 and recently started a position as a Consultant at Axakon as a Front end developer.",
+                "image": "",
+                "socialMedia": [
+                  {
+                    "id": "1",
+                    "ctaMedia": "LinkedIn",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "2",
+                    "ctaMedia": "Github",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "3",
+                    "ctaMedia": "Instagram",
+                    "ctaHref": ""
+                  }
+                ]
+              },
+              {
+                "id": "5",
+                "ctaTitle": "Daniela Zacarias",
+                "ctaText": "",
+                "image": "",
+                "socialMedia": [
+                  {
+                    "id": "1",
+                    "ctaMedia": "LinkedIn",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "2",
+                    "ctaMedia": "Github",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "3",
+                    "ctaMedia": "Website",
+                    "ctaHref": ""
+                  }
+                ]
+              },
+              {
+                "id": "6",
+                "ctaTitle": "Meri M. Vanchovska",
+                "ctaText": "",
+                "image": "",
+                "socialMedia": [
+                  {
+                    "id": "1",
+                    "ctaMedia": "LinkedIn",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "2",
+                    "ctaMedia": "Github",
+                    "ctaHref": ""
+                  },
+                  {
+                    "id": "3",
+                    "ctaMedia": "Website",
+                    "ctaHref": ""
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Community",
+          "props": {
+            "title": "The Beehive",
+            "subtitle": "What would happen if we encouraged all women to be a little more ambitious? I think the world would change.” — Reese Witherspoon",
+            "ctaText": "We are mainly formed by underrepresented immigrant women and non-binary people from in a career transition to tech in Sweden. <br/> We are mostly Software Developers, UX/UI Designers, Data Analysts/ Scientists, and Product people, formed by Bootcamps, Code Academies, Technical Schools, or self-taught online courses.",
+            "ctaHref": "",
+            "image": ""
+          }
+        },
+        {
+          "name": "Volunteer",
+          "props": {
+            "title": "Bee a Volunter",
+            "subtitle": "Our generation has the ability and the responsibility to make our ever-more connected world a more hopeful, stable and peaceful place.” — Natalie Portman",
+            "text": "Have you thought about the benefits you will get from volunteering? If you consider the many benefits you will receive, you will be asking yourself why you aren’t more involved with helping a cause. You will get more out of your volunteer experience than you put into it. Don’t hesitate to identify and donate some of your time to a worthy volunteer opportunity. You will be glad you did.",
+            "aside": "Anyone can offer help simply by sharing their experiences of life and general knowledge with the community. <br/> If you have a specific interest, for example exercising your skills in Graphic Design or taking advantage of your mother-language revising texts. That's lot to do and we'll be glad with your help."
+          }
+        },
+        {
+          "name": "Donate",
+          "props": {
+            "title": "Help us accelerate our mission",
+            "subtitle": "Alone we can do so little; together we can do so much. - Helen Keller",
+            "image": "",
+            "text": "Our mission is to integrate immigrant women and non-binary people in Sweden into the tech world, promoting diversity, equity, and inclusion. <br/>We started Beela because we understand the challenges of starting over in a new country with a lack of opportunities and support networks. <br/> At Beela, our hearts beat to promote diversity, equity, and inclusion and in the tech scene. We’re committed to building a community of empowered immigrant women and non-binary people who thrive in their careers and lead the way in tech.",
+            "aside": "Our Stance<br/> At Beela we are committed to decreasing the evident gap in the unemployment rate between foreign-born women, particularly those from non-European countries, and women and men born in Sweden.<br/>Making a career transition is hard. We help immigrant women and non-binary people define their path, get unblocked, and meet their learning goals. Beela is committed to empowering the next generation of talented immigrant women and non-binary people to realize their potential, creating a better future for all."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "props": {
+        "title": "Contact",
+        "subtitle": "We is here to help people  \ntheir way into tech wolrd.",
+         "ctaEmail": "contact@beela.se"
+      }
+    },
+
+    {
+      "name": "Footer",
+      "props": {
+        "title": "Newsletter",
+        "subtitle": "Do not miss a thing. Sign up to our newsletter now.",
+        "terms": "Yes I would like to sign up for your newsletter and I have read and agree to your",
+        "navItems": [
+          {
+            "id": "1",
+            "ctaTitle": "About us",
+            "ctaHref": ""
+          },
+          {
+            "id": "2",
+            "ctaTitle": "Our Programmes",
+            "ctaHref": ""
+          },
+          {
+            "id": "3",
+            "ctaTitle": "Stories",
+            "ctaHref": ""
+          },
+          {
+            "id": "4",
+            "ctaTitle": "Bee a volunteer",
+            "ctaHref": ""
+          },
+          {
+            "id": "5",
+            "ctaTitle": "Newsletter",
+            "ctaHref": ""
+          },
+          {
+            "id": "6",
+            "ctaTitle": "Log in",
+            "ctaHref": "",
+            "ctaMessage": "Within a few days or so you will be able to sign up for Pluss. \nStay tuned!"
+          }
+        ],
+        "legalItems": [
+          {
+            "id": "1",
+            "ctaTitle": "Terms & Conditions",
+            "ctaHref": "https://github.com/denise-pluss/assets/raw/main/Anvandarvillkor.pdf"
+          },
+          {
+            "id": "2",
+            "ctaTitle": "Privacy policy",
+            "ctaHref": "https://github.com/denise-pluss/assets/raw/main/IntegritetspolicyPlussInternationalAS.pdf"
+          }
+        ],
+        "socialMedia": [
+          {
+            "id": "1",
+            "ctaTitle": "LinkedIn",
+            "ctaHref": "https://www.linkedin.com/company/"
+          },
+          {
+            "id": "2",
+            "ctaTitle": "Instagram",
+            "ctaHref": "https://www.linkedin.com/company/"
+          }
+        ]
+      }
+    }
+  ],
+  "dotscroller": [
+    "#hero",
+    "#about",
+    "#jennys-example",
+    "#how-it-works",
+    "#contact",
+    "#join-us",
+    "#faqs",
+    "#newsletter"
+  ],
+  "language": "en",
+  "template": "default",
+  "path": [
+    "/"
+  ]
+}

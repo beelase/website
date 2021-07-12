@@ -1,0 +1,21 @@
+$theme-color: #F8DF78;
+$secondary-color: #FDF6D7;
+$terciary-color: #d3d3d347;
+$base-color: #333;
+$base-font-size:16px;
+$base-font: 'Roboto', sans-serif;
+$heading-font: 'Montserrat', sans-serif;
+
+body{
+	background-color: #ffffff;
+	font-family: $base-font;	
+	color:$base-color;
+	font-size:$base-font-size;	
+	overflow-x: hidden;
+}
+.no-padding{
+	padding: 0;
+}
+.no-border{
+	border: none;
+}
