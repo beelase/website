@@ -84,7 +84,7 @@ export function LandingPage() {
   <Business />
   <Testimonial />
 
-  {/* <!-- Start social media section --> */}
+  {/* <!-- Start social media section -->  res*/}
   <section id="mu-latest-courses">
     <div className="container">
       <div className="row">

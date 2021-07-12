@@ -42,7 +42,7 @@ export function Carousel( { slides }: SliderProps) {
         return  (
         <Slide id={id} key={index} 
         title={title} ctaText={ctaText}
-        ctaHref={ctaHref} mainText={mainText}
+        ctaHref={ctaHref} mainText={mainText} 
         ctaButton={ctaButton} image={image}/> 
         ) ;
       })}  
