@@ -288,10 +288,7 @@
 	#mu-slider .mu-slider-single .mu-slider-content {
 	  top: 5%;
 	}
-	#mu-slider .slick-prev, #mu-slider .slick-next {	 
-	  height: 40px;
-	  width: 40px;
-	}
+
 	#mu-slider .mu-slider-single .mu-slider-img {
 	  height: 270px;
 	}
@@ -352,6 +349,23 @@
 	#mu-contact .mu-contact-area .mu-contact-content .mu-contact-right iframe {
 	  height: 350px;
 	}
+
+	.mu-testimonial-content {
+    display: block;
+    margin-left: -5rem;
+    float: left;
+    width: 100%;
+	}
+
+	.slick-list {
+		position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 40vh;
+	}
+
 
 	
 }
