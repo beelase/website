@@ -2,6 +2,7 @@
 import plussLogo from '../assets/images/partners/pluss.svg';
 import newToSwedenLogo from '../assets/images/partners/newtosweden.jpeg';
 import techFleetLogo from '../assets/images/partners/techfleet.jpeg';
+import beetrootLogo from '../assets/images/partners/beetroot.png';
 
 export function Business(){
   return (
@@ -26,6 +27,7 @@ export function Business(){
               <a href="https://www.pluss.app/"> <img src={plussLogo} alt="Pluss International" /></a>
              <a href="https://www.newtosweden.org/"><img src={newToSwedenLogo} alt="New to Sweden" /></a>
              <a href="https://www.linkedin.com/company/tech-fleet-baltimore"><img src={techFleetLogo} alt="Tech Fleet" /></a>
+             <a href="https://beetrootacademy.se/"><img src={beetrootLogo} alt="Beetroot Academy" className="img-square" /></a>
             </div>
           </div>
         </div>

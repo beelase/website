@@ -17,6 +17,15 @@
     width: 60px;
   }
 
+  .img-square {
+    background-color: #fff;
+    border: 2px solid #888;
+    border-radius: 5%;
+    margin: 10px 5px 5px;
+    padding: 0;
+    width: 120px;
+  }
+
   a {
     color: $base_color;
   }
