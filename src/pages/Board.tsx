@@ -40,7 +40,7 @@ export function Board() {
                       </figure>
                       <div className="mu-ourteacher-single-content">
                         <h4>Juliana Araújo</h4>
-                        <span>Founder</span>
+                        <span>Founder &amp; CEO</span>
                         <p>
                           Latina immigrant with 8+ years of experience working
                           in tech,leading product teams to develop data-driven
@@ -79,7 +79,7 @@ export function Board() {
                           analyst but decided to change her career path to
                           software development after she moved to Sweden. Has a
                           Bachelor's in Information Systems and a Master's in
-                          Business & Project Management.
+                          Business &amp; Project Management.
                         </p>
                       </div>
                     </div>
@@ -119,8 +119,6 @@ export function Board() {
                         <img
                           src={beelaLogo}
                           alt="work with us img"
-                          width="260"
-                          height="265"
                         />
                         <div className="mu-our-teacher-social">
                           <a href="mailto:contact@beela.se">
@@ -129,9 +127,11 @@ export function Board() {
                         </div>
                       </figure>
                       <div className="mu-ourteacher-single-content">
-                        <h4>Be part of our team</h4>
+                        <h4>Bee part of our team</h4>
                         <span>Work with us</span>
-                        <p>Come join us and be part of our team.</p>
+                        <p>We are always welcoming volunteers: as mentors, content creators and much more. 
+                        <a href="mailto:contact@beela.se?subject=I want work in this amazing project!" target="_blank"> Contact us now.</a>
+                        </p>
                       </div>
                     </div>
                   </div>

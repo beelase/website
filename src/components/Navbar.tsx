@@ -60,7 +60,7 @@ export function Navbar() {
                     >
                       <li>
                         <a className="dropdown-item" href="#programmes-id">
-                          Pollination Mentorship Program
+                          Pollination Mentoring Program
                         </a>
                       </li>
                       <li>
@@ -103,11 +103,11 @@ export function Navbar() {
                           Inspirational stories
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a className="dropdown-item" href="#">
                           Our Community
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <hr className="dropdown-divider" />
                       </li>

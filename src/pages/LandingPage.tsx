@@ -30,7 +30,7 @@ const Slides = [
     image: slideImg2,
     title: "Integration into the Swedish Labour",
     mainText: "Career tips",
-    ctaText: "Courses, bootcamps and events for beginers on your email. Sign up for free now.",
+    ctaText: "Courses, bootcamps and events for beginners on your email. Sign up for free now.",
     ctaButton: "Sign up",
     ctaHref: " https://beela.us1.list-manage.com/subscribe/post?u=ec3f144b4e769635dffef5601&amp;id=92a05c0895"
   },
@@ -147,6 +147,7 @@ export function LandingPage() {
             </div>
             <div className="col-lg-3 col-md-3 col-sm-3">
               <div className="mu-footer-widget">
+             
                 <h4>Newsletter</h4>
                 <p>Get the latest update, news &amp; tips.</p>
                <form className="mu-subscribe-form">
@@ -162,8 +163,7 @@ export function LandingPage() {
                 <address>
                   <p>Stockholm, Sweden</p>
                   {/* <!-- <p>Phone: (415) 453-1568 </p> --> */}
-                  <p>Website: www.beela.se</p>
-                  <p>Email: contact@beela.se</p>
+                  <a href="mailto:contact@beela.se" target="_blank"><p>Email: contact@beela.se</p></a>
                 </address>
               </div>
             </div>

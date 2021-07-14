@@ -64,6 +64,7 @@ export function Features() {
                         bootcamps, and events for beginners.
                       </p>
                       <br />
+                      <br />
                       <a
                         href=" https://beela.us1.list-manage.com/subscribe/post?u=ec3f144b4e769635dffef5601&amp;id=92a05c0895"
                         target="_blank"

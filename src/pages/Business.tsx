@@ -16,16 +16,16 @@ export function Business(){
               <p>Are you working on building a more diverse team? </p> 
               
               <p>We can help you find the best talents
-                and show you how to thrive with a diverse team.
-                <a href="mailto:contact@beela.se">Contact us</a>.</p>
+                and show you how to thrive with a diverse team. 
+                 <a href="mailto:business@beela.se" target="_blank">Contact us</a>.</p>
             </div>
             {/* <!-- end title --> */}
             <div className="mu-title">
               <br />
               <h4>Meet our partners</h4>
-             <img src={plussLogo} alt="Pluss International" />
-             <img src={newToSwedenLogo} alt="New to Sweden" />
-             <img src={techFleetLogo} alt="Tech Fleet" />
+              <a href="https://www.pluss.app/"> <img src={plussLogo} alt="Pluss International" /></a>
+             <a href="https://www.newtosweden.org/"><img src={newToSwedenLogo} alt="New to Sweden" /></a>
+             <a href="https://www.linkedin.com/company/tech-fleet-baltimore"><img src={techFleetLogo} alt="Tech Fleet" /></a>
             </div>
           </div>
         </div>

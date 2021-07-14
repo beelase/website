@@ -26,12 +26,15 @@ export function Carousel( { slides }: SliderProps) {
   const settings = {
     infinite: true,
     slidesToShow: 1,
-    speed: 550,
-    autoplaySpeed: 5000,
+    slidesToScroll: 1,
+    swipe: true,
+    speed: 350,
+    autoplaySpeed: 3000,
     autoplay: true,
     dots: true,
-    touchThreshold: 10000,
+    touchThreshold: 1000,
     className: "mu-slider",
+    useCss: true,
     }
 
   return (

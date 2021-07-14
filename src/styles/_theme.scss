@@ -83,17 +83,17 @@ body {
 }
 
 .mu-read-more-btn {
-  border: 1px solid #fff;
-  color: #fff;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+      border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
   &:hover,
   &:focus {
     background-color: $theme-color;
