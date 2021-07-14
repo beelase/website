@@ -19,7 +19,7 @@ export function Slide({id, image, title, mainText, ctaText, ctaButton, ctaHref}:
             <img src={image} alt="img"  />
           </figure>
         </div>
-        <div className="mu-slider-content">
+        <div className="mu-slider-content slick-list-sm">
           <h4>{title}</h4>
           <span></span>
           <h2>{mainText}</h2>

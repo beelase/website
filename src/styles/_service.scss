@@ -7,19 +7,26 @@
 	margin-top: -80px;
 	width: 100%;
   border-radius: 2rem;
+
+		img {
+			width: 3rem;
+			height: 3rem;
+		}
+
 	.mu-service-area{
 		display: inline;
 		float: left;
 		width: 100%;
     border-radius: 1rem;
     background-color: #FDF6D7;
+
 		.mu-service-single{
 			color: $base_color;
 			display: inline;
 			float: left;
 			padding: 35px 25px;
 			text-align: center;
-			width: 33.33%;
+			width: 33%;
 			
 			span{
 				font-size: 30px;

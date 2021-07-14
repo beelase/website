@@ -20,7 +20,7 @@ const Slides = [
     id: "1",
     image: slideImg1,
     title: "Welcome To Beela",
-    mainText: "Guiding Women Into Tech",
+    mainText: "Guiding woman and non-binary people Into Tech",
     ctaText: "We empower immigrant women and non-binary people to start working with IT in Sweden.",
     ctaButton: "",
     ctaHref: ""
@@ -38,7 +38,7 @@ const Slides = [
     id: "3",
     image: slideImg3,
     title: "Mentoring",
-    mainText: "Empowered Women Empower Women",
+    mainText: "Empowered people Empower people",
     ctaText: "We help people to define their path, get unblocked, and meet their learning goals.",
     ctaButton: "",
     ctaHref: ""
@@ -49,25 +49,26 @@ export function LandingPage() {
   return (
     <div>
     <Carousel slides={Slides} />
+
      <section id="mu-service">
     <div className="container">
       <div className="row">
-        <div className="col-lg-12 col-md-12">
+        <div className="col-lg-12 col-md-6">
           <div className="mu-service-area">
 
             <div className="mu-service-single">
-              <span><img src={empowerImg} alt="Empower" width="60" height="60" /></span>
+              <span><img src={empowerImg} alt="Empower"  /></span>
               <h3>Empower</h3>
               <p>We help immigrant women &amp; non-binary people to achieve all their potential through coaching, mentoring, and networking.</p>
             </div>
 
-            <div className="mu-service-single">
+            <div className="mu-service-single ">
               <span><img src={informImg} alt="Inform"  width="55" height="55" /></span>
               <h3>Inform</h3>
               <p>We spread the word about what's happening in the tech world — boot-camps, code academies, courses, and events. </p>
             </div>
 
-            <div className="mu-service-single">
+            <div className="mu-service-single ">
               <span ><img src={inspireImg} alt="Inspire"  width="60" height="55" /></span>
               <h3>Inspire</h3>
               <p>We share stories of people who built a career in tech, and of employers who embraced the mission and created opportunities.</p>

@@ -9,6 +9,11 @@
 	#mu-slider .mu-slider-single .mu-slider-content {	 
 	  top: 13%;	  
 	}	
+
+	#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
+		background-color: transparent;
+	}
+
 }	
 
 
@@ -164,9 +169,16 @@
 	  border: medium none;	 
 	  margin-bottom: 25px;
 	}
-	#mu-features .mu-features-area .mu-features-content .mu-single-feature {	 
-	  text-align: center;	  
-	}
+	#mu-features { 
+		.mu-features-area {
+			.mu-features-content {
+				.mu-single-feature {	 
+					text-align: center;	  
+					margin-left: 15px;
+				}
+			}
+		}
+	 }
 	#mu-features .mu-features-area .mu-features-content .mu-single-feature h4::after {	 	  
 	  display: none;
 	}
@@ -270,6 +282,65 @@
 	  font-size: 12px;
 	  padding: 0 5px;	  
 	}
+	#mu-slider .slick-slider .mu-slider-single .mu-slider-content a {
+	  margin-top: 1rem;
+	}
+
+	#mu-slider .slick-slider .mu-slider-single  .slick-list-sm {
+		width: 100%;
+		
+		> h2 {
+			font-size: 18px;
+			line-height: 35px;
+		}
+		> h4 {
+			font-size: 15px;	 
+			line-height: 16px;
+		}
+		> p {
+			font-size: 14px;
+			line-height: 1.5;	  
+		}
+	}
+
+	.slick-list {
+		width: 100%;
+
+		h2 {
+			font-size: 18px;
+			line-height: 35px;
+		}
+		h4 {
+			font-size: 15px;	 
+			line-height: 16px;
+		}
+		p {
+			font-size: 14px;
+			line-height: 1.5;	  
+		}
+	}
+
+	
+	
+	#mu-slider .mu-slider-single .mu-slider-content h4 {
+	  font-size: 15px;	 
+	  line-height: 16px;
+	}
+	#mu-slider .mu-slider-single .mu-slider-content p {
+	  font-size: 14px;
+	  line-height: 1.5;	  
+	}
+	#mu-slider .mu-slider-single .mu-slider-content {
+	  padding: 0 2%;
+	}
+	#mu-slider .mu-slider-single .mu-slider-content {
+	  top: 5%;
+	}
+
+	#mu-slider .slick-slider .mu-slider-single .mu-slider-img {
+	  height: 300px;
+	}
+
 	#mu-slider .mu-slider-single .mu-slider-content h2 {
 	  font-size: 18px;
 	  line-height: 35px;
@@ -290,14 +361,38 @@
 	}
 
 	#mu-slider .mu-slider-single .mu-slider-img {
-	  height: 270px;
+	  height: 300px;
 	}
+
+	#mu-service .mu-service-area {
+		margin-top: -4rem;
+	}
+
 	#mu-service .mu-service-area .mu-service-single {
 	  padding: 20px 15px;
 	  width: 100%;
 	}
 	#mu-service .mu-service-area .mu-service-single h3 {
 	  font-size: 18px;
+	}
+
+	.mu-testimonial-content {
+    display: block;
+    float: left;
+    width: 100%;
+	}
+
+	#mu-about-us .mu-about-us-area .mu-about-us-left {	
+		width: 100%;
+	}
+
+	#mu-about-us .mu-about-us-area .mu-about-us-right {	 
+	  display: block;
+		width: 100%;
+	}
+
+	#mu-features .mu-features-area .mu-features-content .mu-single-feature {	
+		margin-left: 0;
 	}
 	#about-video-popup iframe {
 	  height: 300px;
@@ -350,21 +445,10 @@
 	  height: 350px;
 	}
 
-	.mu-testimonial-content {
-    display: block;
-    margin-left: -5rem;
-    float: left;
-    width: 100%;
+	#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
+		background-color: transparent;
 	}
 
-	.slick-list {
-		position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    width: 40vh;
-	}
 
 
 	

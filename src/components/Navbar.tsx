@@ -9,7 +9,7 @@ export function Navbar() {
   
   return (
 
-        <nav className="navbar navbar-expand-md" role="navigation" id="mu-menu">
+        <nav className="navbar navbar-light navbar-expand-md" role="navigation" id="mu-menu">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <img src={logoImg} alt="Beela" />

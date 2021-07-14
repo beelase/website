@@ -8,7 +8,7 @@ export function Features() {
     <section id="mu-features">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-md-12">
+          <div className="col-lg-12 col-md-6">
             <div className="mu-features-area">
               {/* <!-- Start Title --> */}
               <div className="mu-title">
@@ -18,7 +18,7 @@ export function Features() {
             <!-- Start features content --> */}
               <div className="mu-features-content">
                 <div className="row">
-                  <div className="col-lg-3 col-md-3  col-sm-6">
+                  <div className="col-lg-3 col-md-3  col-sm-12">
                     <div className="mu-single-feature">
                       <span>
                         <img src={podcastImg} alt="podcast" />
