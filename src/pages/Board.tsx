@@ -43,7 +43,7 @@ export function Board() {
                         <span>Founder &amp; CEO</span>
                         <p>
                           Latina immigrant with 8+ years of experience working
-                          in tech,leading product teams to develop data-driven
+                          in tech, leading product teams to develop data-driven
                           products. She has a Bachelor's in Information Systems
                           and is currently writing her master thesis in IT
                           Project Management from Stockholm University.
@@ -77,7 +77,7 @@ export function Board() {
                           Latina immigrant and fullstack developer. Denise has
                           over 10 years of experience working as a business
                           analyst but decided to change her career path to
-                          software development after she moved to Sweden. Has a
+                          software development after she moved to Sweden. She has a
                           Bachelor's in Information Systems and a Master's in
                           Business &amp; Project Management.
                         </p>
@@ -104,8 +104,8 @@ export function Board() {
                         <h4>Maryam Arai</h4>
                         <span>Senior Organizational Developer</span>
                         <p>
-                          Social entrepreneur with a passionfor diversity,
-                          inclusion, and belonging. She has 8 years ofexperience
+                          Social entrepreneur with a passion for diversity,
+                          inclusion, and belonging. She has 8 years of experience
                           in HR-related professions,including work with
                           Arbetsförmedlingen with a focus on education,
                           recruitment, and innovation.
