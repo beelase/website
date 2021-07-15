@@ -20,7 +20,7 @@ const Slides = [
     id: "1",
     image: slideImg1,
     title: "Welcome To Beela",
-    mainText: "Guiding woman and non-binary people Into Tech",
+    mainText: "Guiding women and non-binary people Into Tech",
     ctaText: "We empower immigrant women and non-binary people to start working with IT in Sweden.",
     ctaButton: "",
     ctaHref: ""

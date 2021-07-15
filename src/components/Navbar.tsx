@@ -78,7 +78,7 @@ export function Navbar() {
                       </li>
                       <li>
                         <a className="dropdown-item" href="#mu-latest-courses">
-                          Beela for Bussines
+                          Beela for Business
                         </a>
                       </li>
                     </ul>
