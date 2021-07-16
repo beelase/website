@@ -131,7 +131,7 @@ export function LandingPage() {
                 <ul>
                   <li><a href="#about-us-id">Beela</a></li>
                   <li><a href="#programmes-id">Our Programmes</a></li>
-                  <li><a href="https://www.instagram.com/beela.se/" target="_blank">Stories</a></li>
+                  <li><a href="https://www.instagram.com/beela.se/" target="_blank" rel="noreferrer">Stories</a></li>
                   {/* <li><a href="mentoring.html">Take action</a></li> */}
                 </ul>
               </div>
@@ -142,7 +142,7 @@ export function LandingPage() {
                 <ul>
                  {/* <!--  <li><a href="mentoring.html">Mentee</a></li>
                   <li><a href="mentoring.html">Mentor</a></li> --> */}
-                  <li><a href="https://www.linkedin.com/posts/beela-se_volunteer-opportunities-activity-6793079881447063552-yOXX" target="_blank">Volunteer</a></li>
+                  <li><a href="https://www.linkedin.com/posts/beela-se_volunteer-opportunities-activity-6793079881447063552-yOXX" target="_blank" rel="noreferrer">Volunteer</a></li>
                 </ul>
               </div>
             </div>
@@ -164,7 +164,7 @@ export function LandingPage() {
                 <address>
                   <p>Stockholm, Sweden</p>
                   {/* <!-- <p>Phone: (415) 453-1568 </p> --> */}
-                  <a href="mailto:contact@beela.se" target="_blank"><p>Email: contact@beela.se</p></a>
+                  <a href="mailto:contact@beela.se" target="_blank" rel="noreferrer"><p>Email: contact@beela.se</p></a>
                 </address>
               </div>
             </div>

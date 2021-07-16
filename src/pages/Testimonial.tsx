@@ -25,9 +25,9 @@ export function Testimonial() {
 
     infinite: true,
     slidesToShow: 1,
-    speed: 550,
-    autoplaySpeed: 5000,
-    arrows: false,
+    speed: 500,
+    autoplaySpeed: 10000,
+    arrows: true,
     autoplay: true,
     dots: true,
     touchThreshold: 10000,

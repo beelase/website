@@ -22,19 +22,18 @@ type SliderProps = {
 
 
 export function Carousel( { slides }: SliderProps) {
- 
+
   const settings = {
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    swipe: true,
-    speed: 350,
-    autoplaySpeed: 3000,
-    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 10000,
     arrows: true,
-    touchThreshold: 1000,
-    className: "mu-slider",
-    useCss: true,
+    autoplay: true,
+    dots: true,
+    touchThreshold: 10000,
+    pauseOnHover: true,
+
     responsive: [
       {
         breakpoint: 1024,
