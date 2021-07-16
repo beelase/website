@@ -27,7 +27,7 @@ export function Carousel( { slides }: SliderProps) {
     infinite: true,
     slidesToShow: 1,
     speed: 500,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 5000,
     arrows: true,
     autoplay: true,
     dots: true,

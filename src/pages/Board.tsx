@@ -14,6 +14,14 @@ export function Board() {
               <div className="mu-title">
                 <h2>Who are we?</h2>
                 <p>
+                  Beela is a support network that empowers immigrant women &amp;
+                  non-binary people in Sweden to join the tech world promoting
+                  diversity, equity, and inclusion. </p>
+                  <p>We started Beela because we
+                  understand the challenges of starting over in a new country
+                  with a lack of opportunities and support networks.
+                </p>
+                <p>
                   Meet The Queens, the amazing women who created this
                   initiative.
                 </p>
@@ -77,9 +85,9 @@ export function Board() {
                           Latina immigrant and fullstack developer. Denise has
                           over 10 years of experience working as a business
                           analyst but decided to change her career path to
-                          software development after she moved to Sweden. She has a
-                          Bachelor's in Information Systems and a Master's in
-                          Business &amp; Project Management.
+                          software development after she moved to Sweden. She
+                          has a Bachelor's in Information Systems and a Master's
+                          in Business &amp; Project Management.
                         </p>
                       </div>
                     </div>
@@ -105,9 +113,9 @@ export function Board() {
                         <span>Senior Organizational Developer</span>
                         <p>
                           Social entrepreneur with a passion for diversity,
-                          inclusion, and belonging. She has 8 years of experience
-                          in HR-related professions,including work with
-                          Arbetsförmedlingen with a focus on education,
+                          inclusion, and belonging. She has 8 years of
+                          experience in HR-related professions,including work
+                          with Arbetsförmedlingen with a focus on education,
                           recruitment, and innovation.
                         </p>
                       </div>
@@ -116,10 +124,7 @@ export function Board() {
                   <div className="col-lg-3 col-md-3 col-sm-6">
                     <div className="mu-our-teacher-single">
                       <figure className="mu-our-teacher-img">
-                        <img
-                          src={beelaLogo}
-                          alt="work with us img"
-                        />
+                        <img src={beelaLogo} alt="work with us img" />
                         <div className="mu-our-teacher-social">
                           <a href="mailto:contact@beela.se">
                             <span className="fa fa-plus"></span>
@@ -129,8 +134,16 @@ export function Board() {
                       <div className="mu-ourteacher-single-content">
                         <h4>Bee part of our team</h4>
                         <span>Work with us</span>
-                        <p>We are always welcoming volunteers: as mentors, content creators and much more. 
-                        <a href="mailto:contact@beela.se?subject=I want work in this amazing project!" target="_blank"> Contact us now.</a>
+                        <p>
+                          We are always welcoming volunteers: as mentors,
+                          content creators and much more.
+                          <a
+                            href="mailto:contact@beela.se?subject=I want work in this amazing project!"
+                            target="_blank"
+                          >
+                            {" "}
+                            Contact us now.
+                          </a>
                         </p>
                       </div>
                     </div>
