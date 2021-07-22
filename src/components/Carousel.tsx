@@ -30,7 +30,7 @@ export function Carousel( { slides }: SliderProps) {
     autoplaySpeed: 5000,
     arrows: true,
     autoplay: true,
-    dots: true,
+    dots: false,
     touchThreshold: 10000,
     pauseOnHover: true,
 
