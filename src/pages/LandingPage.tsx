@@ -32,7 +32,7 @@ const Slides = [
     mainText: "Career tips",
     ctaText: "Courses, bootcamps and events for beginners on your email. Sign up for free now.",
     ctaButton: "Sign up",
-    ctaHref: " https://beela.us1.list-manage.com/subscribe/post?u=ec3f144b4e769635dffef5601&amp;id=92a05c0895"
+    ctaHref: "https://beela.us1.list-manage.com/subscribe/post?u=ec3f144b4e769635dffef5601&amp;id=92a05c0895"
   },
   {
     id: "3",
