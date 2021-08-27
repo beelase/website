@@ -19,7 +19,7 @@ export function Features() {
               <div className="mu-features-content">
                 <div className="row">
                   <div className="col-lg-3 col-md-3  col-sm-12">
-                    <div className="mu-single-feature">
+                    <div className="mu-single-feature p-4">
                       <span>
                         <img src={podcastImg} alt="podcast" />
                       </span>
@@ -38,7 +38,7 @@ export function Features() {
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-3  col-sm-6">
-                    <div className="mu-single-feature">
+                    <div className="mu-single-feature p-4">
                       <span>
                         <img src={mentoringImg} alt="Pollination" />
                       </span>
@@ -53,7 +53,7 @@ export function Features() {
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-3  col-sm-6">
-                    <div className="mu-single-feature">
+                    <div className="mu-single-feature p-4">
                       <span>
                         <img src={newsletterImg} alt="Newsletter" />
                       </span>
@@ -74,7 +74,7 @@ export function Features() {
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-3  col-sm-6">
-                    <div className="mu-single-feature">
+                    <div className="mu-single-feature p-4">
                       <span>
                         <img src={eventsImg} alt="Event" />
                       </span>

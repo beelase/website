@@ -25,6 +25,7 @@ export function Slide({id, image, title, mainText, ctaText, ctaButton, ctaHref}:
           <h2>{mainText}</h2>
           <p>
             {ctaText}
+        
           </p>
           {ctaHref  && (
           <a href={ctaHref} className="mu-read-more-btn">{ctaButton}</a>

@@ -4,6 +4,7 @@ import { Features } from './Features';
 import { Board } from './Board';
 import { Business } from './Business';
 import { Testimonial } from './Testimonial';
+import { Mentoring } from './Mentoring';
 
 import slideImg1 from '../assets/images/slider/1.jpg';
 import slideImg2 from '../assets/images/slider/2.jpg';
@@ -81,21 +82,23 @@ export function LandingPage() {
   </section>
   <About />
   <Features />
+   <Mentoring />
   <Board />
-  <Business />
+ 
   <Testimonial />
+  <Business />
 
   {/* <!-- Start social media section -->  res*/}
-  <section id="mu-latest-courses">
-    <div className="container">
+  <section id="mu-service">
+    <div className="container mb-4 mt-2">
       <div className="row">
         {/* <!-- <div className="col-lg-12 col-md-12"> --> */}
-        <div className="mu-latest-courses-area">
+        <div className="mu-service-area mt-6">
           {/* <!-- Start Title --> */}
-          <div className="mu-title">
+          <div className="mu-title m-3">
             <h2>Social Media</h2>
             <p>Follow us on our social media channels.</p>
-
+      
             <div className="social-media">
               <a href="https://www.instagram.com/beela.se/">
                 <img src={instagramIcon}  alt="" />

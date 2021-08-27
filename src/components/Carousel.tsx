@@ -74,7 +74,7 @@ export function Carousel( { slides }: SliderProps) {
         ctaButton={ctaButton} image={image}/> 
         ) ;
       })}  
-     
+         
      
       </Slider>
       </div>
