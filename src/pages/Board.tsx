@@ -40,7 +40,7 @@ export function Board() {
                           </a>
                           <a
                             href="https://www.linkedin.com/in/jularase/"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             <span className="fa fa-linkedin"></span>
                           </a>
@@ -72,7 +72,7 @@ export function Board() {
                           </a>
                           <a
                             href="https://www.linkedin.com/in/deniseamuniz/"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             <span className="fa fa-linkedin"></span>
                           </a>
@@ -102,7 +102,7 @@ export function Board() {
                           </a>
                           <a
                             href="https://www.linkedin.com/in/maryam-arai-299a69a1/"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             <span className="fa fa-linkedin"></span>
                           </a>
@@ -139,7 +139,7 @@ export function Board() {
                           content creators and much more.
                           <a
                             href="mailto:contact@beela.se?subject=I want work in this amazing project!"
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             {" "}
                             Contact us now.

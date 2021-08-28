@@ -18,7 +18,7 @@ export function Business(){
               
               <p>We can help you find the best talents
                 and show you how to thrive with a diverse team. 
-                 <a href="mailto:business@beela.se" target="_blank">Contact us</a>.</p>
+                 <a href="mailto:business@beela.se" target="_blank" rel="noreferrer">Contact us</a>.</p>
             </div>
             {/* <!-- end title --> */}
             <div className="mu-title">
