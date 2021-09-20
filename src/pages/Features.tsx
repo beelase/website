@@ -49,7 +49,7 @@ export function Features() {
                         mentorship, career coaching, and support.
                       </p>
 
-                      <a href="mentoring.html">Read More</a>
+                      <a href="#mentoring-id">Read More</a>
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-3  col-sm-6">
