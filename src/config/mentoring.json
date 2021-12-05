@@ -1,0 +1,42 @@
+{
+  "structure": {
+    "mentoring": {
+      "hero": [
+        {
+          "title": "Pollination Mentoring Program",
+          "header": "Beela accompanying you on your journey",
+          "call": "Beela accompanying you in your journey",
+          "heroText": "Applications for Mentors are currently being accepted! The next program start date for the whole of Sweden is 25th February 2022. Since you participate digitally (Covid times), you are welcome to apply regardless of where you live in Sweden. The program is available in English."
+        }
+      ],
+      "decription": "Pollination is first Sweden’s mentoring program for women and non-binary people with a foreign background who don’t have a job in their area of competence or are in transition to tech. Through mentorship and an expanded contact network, we strive to improve the possibilities for such individuals to land their first job.",
+      "mentorCall": [
+        {
+          "header": "Are you established in the Swedish labour market?",
+          "call": "Become a mentor and contribute to diverse labour market",
+          "text": "Being a mentor in Pollination means that you provide individual support to a person with a foreign background who doesn’t have a job in Sweden or need guidance in their transition to tech market. Do you want to make a difference? We are looking for mentors from all levels of companies and organisations who can contribute to our program with their engagement and their experience – a small commitment can make a huge difference to someone else!"
+        }
+      ],
+      "statistics": {
+        "mentee": [
+          {
+            "satisfaction": "100%",
+            "learned": "86%",
+            "landJob": "50%",
+            "recomend": "86%",
+            "overalRate": "72%"
+          }
+        ],
+        "mentor": [
+          {
+            "satisfaction": "100%",
+            "learned": "",
+            "landJob": "",
+            "recomend": "100%",
+            "overalRate": "80%"
+          }
+        ]
+      }
+    }
+  }
+}

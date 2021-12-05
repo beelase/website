@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/style.scss";
 
@@ -62,6 +63,11 @@ export function Navbar() {
                         <a className="dropdown-item" href="#programmes-id">
                           Pollination Mentoring Program
                         </a>
+                      </li>
+                      <li>
+                       <Link to="/pollination" >
+                          Pollination Mentoring Program - new
+                        </Link>
                       </li>
                       <li>
                         <a className="dropdown-item" href="https://open.spotify.com/show/1B1xgKaplQwslW05BoRDmX?si=_zzx0g3HQGSgmQHLzlb3iw&dl_branch=1">
