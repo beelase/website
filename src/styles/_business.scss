@@ -5,7 +5,7 @@
   background-color: #d3d3d347;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 3rem 0;
   width: 100%;
 
   img {
@@ -41,6 +41,9 @@
 
 #mu-latest-courses .mu-latest-courses-area .mu-title h2 {
   color: $base_color;
+    padding-bottom: 10px;
+    position: relative;
+
 }
 
 #mu-latest-courses .mu-latest-courses-area .mu-title p {

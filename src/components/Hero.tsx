@@ -1,26 +1,20 @@
-import heroImg from "../assets/images/mentoring/mentoring.jpg";
+import ReactMarkdown from "react-markdown";
+import { ContentElement } from "../interfaces";
 
-type HeroProps = {
-  title: string;
-  header: string;
-  call: string;
-  heroText: string;
-};
-
-
-
-export function Hero({ title, header, call, heroText }: HeroProps) {
+export function Hero({title, call, text}: ContentElement) {
   const width = window.innerWidth;
   const height = window.innerHeight;
 
   return (
-    <div id="#mu-mentoring">
-      <div className="mu-title">
-        <h6 id="mentoring-id">{title}</h6>
+    <div id="mu-hero">
+
+      <div className="mu-hero-title">
+        <h4 >{title}</h4>
       </div>
-      <h4>{header}</h4>
-      <h2>{call}</h2>
-      <p>{heroText}</p>
+      <h3>{call}</h3>
+      <ReactMarkdown>
+        {text}
+      </ReactMarkdown>
     </div>
   );
 }
