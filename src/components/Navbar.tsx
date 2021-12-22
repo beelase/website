@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/style.scss";
 
@@ -11,7 +12,7 @@ export function Navbar() {
 
         <nav className="navbar navbar-light navbar-expand-md" role="navigation" id="mu-menu">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               <img src={logoImg} alt="Beela" />
             </a>
             <div>
@@ -34,9 +35,9 @@ export function Navbar() {
               >
                 <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                   <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#">
+                  <Link to="/" className="nav-link" > 
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#about-us-id">
@@ -59,9 +60,9 @@ export function Navbar() {
                       aria-labelledby="navbarDropdownProgrammes"
                     >
                       <li>
-                        <a className="dropdown-item" href="#programmes-id">
+                       <Link className="dropdown-item" to="/pollination" >
                           Pollination Mentoring Program
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a className="dropdown-item" href="https://open.spotify.com/show/1B1xgKaplQwslW05BoRDmX?si=_zzx0g3HQGSgmQHLzlb3iw&dl_branch=1">

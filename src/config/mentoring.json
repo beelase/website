@@ -1,0 +1,166 @@
+{
+  "structure": {
+    "mentoring": [
+      {
+        "id": "Hero",
+        "content": {
+          "title": "Beela accompanying you on your journey",
+          "call": "Are you an immigrant woman or non-binary? Are you in Sweden? Are you looking into opportunities to switch to tech or land a job in tech? Look no more!",
+          "text": "A great opportunity for you to connect with a mentor who can offer you insight, advice, opportunity – and help you navigate the next stage/s of your career.  \u000dThrough mentorship, networking, and a learning environment, we support **YOU**, women, and non-binary people to kick-start your career in tech in Sweden. ",
+          "formLink": ""
+        }
+      },
+      {
+        "id": "Description",
+        "content": {
+          "title": "How it works",
+          "call": "",
+          "text": "The mentorship meetings and the accompanying program will be held digitally, so you are welcome to apply regardless of where in Sweden you live. The program runs twice a year, both in spring and in autumn, and lasts for 4 months.  \u000dThe next program start date is 25th February 2022.",
+          "formLink": ""
+        }
+      },
+      {
+        "id": "mentorCall",
+        "content": {
+          "title": "Bee a Mentor",
+          "call": "Are you established in the Swedish labour market?  \u000dBecome a mentor and contribute to diverse labour market.",
+          "text": "Being a mentor in Pollination means that you provide individual support to a person with a foreign background who doesn’t have a job in Sweden or need guidance in their transition to tech market.  \u000dDo you want to make a difference? We are looking for mentors from all levels of companies and organizations who can contribute to our program with their engagement and their experience – a small commitment can make a huge difference to someone else!  \u000dApplications for Mentors are currently being accepted!  \u000dThe next **program start date** for the whole of Sweden is **25th February 2022**.  \u000dSince you participate digitally (Covid times), you are welcome to apply regardless of where you live in Sweden. \u000d**The program is available in English.**",
+          "formLink": "https://forms.gle/WRGBpARTnWu2qvqj8",
+          "imgPicture": "https://raw.githubusercontent.com/dendenmuniz/assets/main/codeDirections.jpg",
+          "imgAlt": "Beeing Mentor"
+        }
+      },
+      {
+        "id": "statistics",
+        "content": {
+          "title": "Pollination in numbers",
+          "call": "Impact on our community",
+          "text": "",
+          "formLink": "",
+          "values": [
+            {
+              "id": "mentee",
+              "evaluation": [
+                {
+                  "id": "satisfaction",
+                  "value": "100%"
+                },
+                {
+                  "id": "learned",
+                  "value": "86%"
+                },
+                {
+                  "id": "landJob",
+                  "value": "50%"
+                },
+                {
+                  "id": "recomend",
+                  "value": "86%"
+                },
+                {
+                  "id": "overalRate",
+                  "value": "72%"
+                }
+              ]
+            },
+            {
+              "id": "mentor",
+              "evaluation": [
+                {
+                  "id": "satisfaction",
+                  "value": "100%"
+                },
+                {
+                  "id": "learned",
+                  "value": "0"
+                },
+                {
+                  "id": "landJob",
+                  "value": "0"
+                },
+                {
+                  "id": "recomend",
+                  "value": "100%"
+                },
+                {
+                  "id": "overalRate",
+                  "value": "80%"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "program",
+        "content": {
+          "title": "Program Structure",
+          "call": "Pollination offers two programs per year – one during the autumn and one during the spring. Each program lasts for 4 months. During this time we provide:",
+          "text": "",
+          "formLink": "",
+          "list": [
+            {
+              "id": "1",
+              "subtitle": "Mentoring meetings",
+              "text": "1:1 Mentee and mentor sessions: at least 4 meetings throughout the program",
+              "imgPicture": "https://raw.githubusercontent.com/dendenmuniz/assets/main/consulting%20(1).png",
+              "imgAlt": "Mentoring meetings"
+            },
+            {
+              "id": "3",
+              "subtitle": "RH Advice",
+              "text": "1:1 session for mentees with an RH specialist",
+              "imgPicture": "https://raw.githubusercontent.com/dendenmuniz/assets/main/human-resources%20(1).png",
+              "imgAlt": "RH Advice"
+            },
+            {
+              "id": "4",
+              "subtitle": "Networking sessions",
+              "text": "Gathering sessions where mentees and mentors meet online for networking and to exchange tips and past experiences",
+              "imgPicture": "https://raw.githubusercontent.com/dendenmuniz/assets/main/networking%20(1).png",
+              "imgAlt": "Networking"
+            },
+            {
+              "id": "5",
+              "subtitle": "Knowledge Platform",
+              "text": "e-Learning platform to increase your knowledge and help you land a job",
+              "imgPicture": "https://raw.githubusercontent.com/dendenmuniz/assets/main/elearning%20(1).png",
+              "imgAlt": "Knowledge Platform"
+            }
+          ]
+        }
+      },
+      {
+        "id": "testimonials",
+        "content": {
+          "title": "Stories",
+          "call": "What do previous participants say about our program?",
+          "text": "",
+          "formLink": "",
+          "list": [
+            {
+              "id": "1",
+              "subtitle": "Mentee",
+              "text": "I am much more confident in my knowledge and I found a job!"
+            },
+            {
+              "id": "2",
+              "subtitle": "Mentee",
+              "text": "It gave me the confidence to be able to express my thoughts and ideas about programming that helped me be more relaxed during my job interviews."
+            },
+            {
+              "id": "3",
+              "subtitle": "Mentee",
+              "text": "I got a lot of great tips and got the chance to talk with a person already working as a UX designer in Sweden."
+            },
+            {
+              "id": "4",
+              "subtitle": "Mentee",
+              "text": "Just in general, it was very inspiring and motivating to see another woman successfully working in the male-dominated industry."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

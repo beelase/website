@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import podcastImg from "../assets/images/icons/microphone.svg";
 import mentoringImg from "../assets/images/icons/social-care.svg";
 import newsletterImg from "../assets/images/icons/letter.svg";
@@ -18,7 +19,7 @@ export function Features() {
             <!-- Start features content --> */}
               <div className="mu-features-content">
                 <div className="row">
-                  <div className="col-lg-3 col-md-3  col-sm-12">
+                  <div className="col-lg-3 col-md-3  col-sm-6">
                     <div className="mu-single-feature p-4">
                       <span>
                         <img src={podcastImg} alt="podcast" />
@@ -32,7 +33,7 @@ export function Features() {
                       <br />
                       <br />
 
-                      <a href="https://open.spotify.com/show/1B1xgKaplQwslW05BoRDmX?si=g6MBIBsWTOGFACXXA4LQQg">
+                      <a href="https://open.spotify.com/show/1B1xgKaplQwslW05BoRDmX?si=g6MBIBsWTOGFACXXA4LQQg" className="box-fill">
                         Listen
                       </a>
                     </div>
@@ -49,7 +50,9 @@ export function Features() {
                         mentorship, career coaching, and support.
                       </p>
 
-                      <a href="#mentoring-id">Read More</a>
+                      <Link  to="/pollination" className="box-fill" >
+                          Read more
+                        </Link>
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-3  col-sm-6">
@@ -69,6 +72,7 @@ export function Features() {
                         href=" https://beela.us1.list-manage.com/subscribe/post?u=ec3f144b4e769635dffef5601&amp;id=92a05c0895"
                         target="_blank"
                         rel="noreferrer"
+                        className="box-fill"
                       >
                         Sign up
                       </a>
@@ -90,6 +94,7 @@ export function Features() {
                       <a
                         href="https://www.linkedin.com/company/beela-se/"
                         target="_blank"
+                        className="box-fill"
                       >
                         Search
                       </a>

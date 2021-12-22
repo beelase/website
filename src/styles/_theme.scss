@@ -48,6 +48,16 @@ body {
   color: #333333;
 }
 
+.mu-description {
+  display: inline;
+  float: left;
+  text-align: left;
+  margin-top: 1rem;
+  width: 100%;
+  color: #333333;
+  font-size: 1.4rem;
+}
+
 .nav {
   margin-top: 60px;
   box-shadow: 5px 4px 5px $base_color;
@@ -197,8 +207,8 @@ body {
         a {
           &:hover,
           &:focus {
-            color: $theme-color;
-            border-color: $theme-color;
+            color: #333;
+            border-color: $base-color;
           }
         }
       }
