@@ -19,7 +19,7 @@ export function Features() {
             <!-- Start features content --> */}
               <div className="mu-features-content">
                 <div className="row">
-                  <div className="col-lg-3 col-md-3  col-sm-12">
+                  <div className="col-lg-3 col-md-3  col-sm-6">
                     <div className="mu-single-feature p-4">
                       <span>
                         <img src={podcastImg} alt="podcast" />
